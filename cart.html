@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/08ee5d718f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header start -->
+    <section id="header">
+      <div class="logo">
+        <img src="logo/logo.png" />
+      </div>
+      <div class="links">
+        <ul id="navbar">
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          
+          <li><a class="active" href="cart.html" id="lg-cart"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <a id="close" href="#"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+        <div class="menu">
+          <i id="bar" class="fa-solid fa-bars"></i>
+          <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- header end -->
+
+    <!-- poster start -->
+    <section id="blog-poster">
+    
+      <h2>#cart</h2>
+    
+      <p>Save more with coupons & upto 70% off</p>
+    
+    </section>
+    <!-- poster end -->
+  <!-- table -->
+   <section id="table-section" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subquantity</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><i class="fa-solid fa-ban"></i></td>
+                <td class="img"><img src="product/tshirt2.jpg"></td>
+                <td>cartoon animation T-shirt</td>
+                <td>$25</td>
+                <td><input type="number"></td>
+                <td>$25</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-ban"></i></td>
+                <td class="img"><img src="product/tshirt3.jpg"></td>
+                <td>cartoon animation T-shirt</td>
+                <td>$25</td>
+                <td><input type="number"></td>
+                <td>$125</td>
+            </tr>
+            <tr>
+                <td><i class="fa-solid fa-ban"></i></td>
+                <td class="img"><img src="product/tshirt4.jpg"></td>
+                <td>cartoon animation T-shirt</td>
+                <td>$25</td>
+                <td><input type="number"></td>
+                <td>$225</td>
+            </tr>
+        </tbody>
+    </table>
+   </section>
+
+
+   <section id="cart-coupon" class="section-p1">
+    <div class="cart-left">
+      <h2>Apply Coupon</h2>
+
+      <input type="text" placeholder="Enter your coupon"><button>Apply</button>
+    </div>
+    <div class="cart-right">
+    <h2>Cart Total</h2>
+    <table width="80%">
+        <tr>
+            <td>Cart Subtotal</td>
+            <td>$25</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+        </tr>
+        <tr class="total">
+            <td>Total</td>
+            <td>$25</td>
+        </tr>
+    </table>
+    <button>Proceed to Checkout</button>
+    </div>
+
+   </section>
+    <!-- footer start -->
+
+    <section id="footer" class="section-p1">
+      <div class="col">
+        <h6>Contact</h6>
+        <p><strong>Adress:</strong>Village and post Makhiyali</p>
+        <p><strong>Phone:</strong>+91 7310907987</p>
+        <p><strong>Hours:</strong>10:00 18:00 MON-FRI</p>
+        <h5>Follow</h5>
+        <div class="follow">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-square-instagram"></i>
+          <i class="fa-brands fa-linkedin"></i>
+          <i class="fa-brands fa-github"></i>
+        </div>
+      </div>
+      <div class="col">
+        <h6>About</h6>
+        <p><a href="#">Aboutus</a></p>
+        <p><a href="#">Delivery Information</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms & Condition</a></p>
+        <p><a href="#">Contact us</a></p>
+      </div>
+      <div class="col">
+        <h6>MyAccount</h6>
+        <p><a href="#">Aboutus</a></p>
+        <p><a href="#">Delivery Information</a></p>
+        <p><a href="#">Privacy Policy</a></p>
+        <p><a href="#">Terms & Condition</a></p>
+        <p><a href="#">Contact us</a></p>
+      </div>
+      <div class="col">
+        <h6>Install App</h6>
+        <p>Download from google and playstore</p>
+        <div class="button">
+          <button class="btn1"><img src="pay/app.jpg" /></button>
+          <button class="btn2"><img src="pay/play.jpg" /></button>
+        </div>
+        <p>Secured Payment</p>
+        <img src="pay/pay.png" />
+      </div>
+    </section>
+
+    <!-- footer end -->
+    <script src="app.js"></script>
+  </body>
+</html>
